@@ -6,25 +6,25 @@ function gwget() {
 
 function apt() {
 	echo
-	echo "### 패키지 저장소 업데이트 - 시작 ###"
+	echo "### 패키지 저장소 업데이트 시작 ###"
 	echo
 	sudo apt-get -y update
 	echo
-	echo "### 패키지 저장소 업데이트 - 완료 ###"
+	echo "### 패키지 저장소 업데이트 완료 ###"
 	echo
 	echo
-	echo "### 패키지 업그레이드 - 시작 ###"
+	echo "### 패키지 업그레이드 시작 ###"
 	echo
 	sudo apt-get -y dist-upgrade
 	echo
-	echo "### 패키지 업그레이드 - 완료 ###"
+	echo "### 패키지 업그레이드 완료 ###"
 	echo
 	echo
-	echo "### 패키지 저장소 청소 - 시작 ###"
+	echo "### 패키지 저장소 청소 시작 ###"
 	echo
 	sudo apt-get -y clean
 	sudo apt-get -y autoremove
 	echo
-	echo "### 패키지 저장소 청소 - 완료 ###"
+	echo "### 패키지 저장소 청소 완료 ###"
 	echo
 }
